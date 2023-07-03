@@ -15,13 +15,5 @@ public class Main {
     public static boolean isPowerOfTwo(int value) {
         return  java.lang.Integer.bitCount(Math.abs(value)) == 1;
     }
-    public static boolean booleanExpression(boolean a, boolean b, boolean c, boolean d) {
-        Boolean[] BoolArr = {a,b,c,d};
-        int TrueNum = 0;
-        for (boolean now : BoolArr){
-            if (now) TrueNum++;
-        }
 
-        return TrueNum == 2 ? true : false;
-    }
 }
